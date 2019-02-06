@@ -1,0 +1,115 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.insta{
+  color: $insta;
+}
+.facebook{
+  color: $facebook;
+}
+.youtube{
+  color: $youtube;
+}
+.printerest{
+  color: $printerest;
+}
+
+// Navbar
+nav{
+  .ml-auto{
+    @media screen and (max-width: 800px) {
+      li{
+        a{
+          display: block;
+          width: 50%;
+          margin: auto;
+        }
+      }
+    }
+  }
+  .navbar-brand{
+    width: 15%;
+    img{
+      width: 20%;
+      @media screen and (max-width: 800px) {
+        width: 50%;
+      }
+    }
+  }
+}
+
+// Contact Us Buttons
+.contact{
+  font-size: 1.5em;
+  border: 1px solid #0080ff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px 40px;
+  color: #0080ff;
+  width: 30%;
+  margin: auto;
+  transition: 0.5s;
+  @media screen and (max-width: 500px) {
+      font-size: 0.8em;
+      padding: 4px 20px;
+  }
+  &:hover{
+      background: #0080ff;
+      color: #fff;
+      text-decoration: none;
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+}
+
+// Underlining dots
+.underdots{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  div{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background : #0080ff;
+      opacity: 0.3;
+  }
+}
+
+// Login button to access the backend
+.login-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+}
+
+// Homepage
+@import 'home';
+
+// Footer
+@import 'footer';
+
+// Meet The Team
+@import 'team';
+
+// Our Clients
+@import 'clients';
+
+// About Us Page
+@import 'about';

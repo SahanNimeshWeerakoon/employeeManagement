@@ -1,0 +1,23 @@
+.clients{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    .col-md-3{
+        margin-top: 30px;
+    }
+    img{
+        width: 50%;
+        margin-left: 25%;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        &:hover{
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+        }
+        &.map{
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    }
+}

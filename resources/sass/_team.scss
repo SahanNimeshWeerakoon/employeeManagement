@@ -1,0 +1,25 @@
+.team{
+    padding-top: 30px;
+    .col-md-4>div{
+        border-radius: 50%;
+    }
+    margin-top: 30px;
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .manager{
+        width: 80%;
+        padding-top: 100px;
+    }
+    .ceo{
+        width: 100%;
+    }
+    .developers{
+        padding-top: 50px;
+        .developer{
+            width: 70%;
+            padding-top: 30px;
+        }
+    }
+}

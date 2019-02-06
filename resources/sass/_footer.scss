@@ -1,0 +1,30 @@
+footer{
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    li{
+        color: #888;
+    }
+    .col-md-3{
+        padding-bottom: 30px;
+    }
+    .col-md-5{
+        padding-bottom: 30px;
+        h1{
+            img{
+                width: 10%;
+                margin: auto;
+            }
+        }
+    }
+    form{
+        input[type="submit"]{
+            background: transparent;
+            padding: 3px 8px;
+        }
+    }
+}
+.terms{
+    padding-top: 10px;
+}
